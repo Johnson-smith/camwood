@@ -10,7 +10,7 @@ print('i am %s' % 'hjw')
 print('%d' % 18)
 print('%i' % 18)
 print('%u' % 18)
-print('%a' % '马哥教育')
+print('%a' % '万留科技')
 print('%c' %  'c')
 
 
@@ -24,7 +24,7 @@ print('{}, {name}, {}'.format(1, 2, name='abc'))
 #print('{}, {1}, {name}'.format(1, 2, name='abc'))
 print("i'm {0}".format('hjw'))
 print('i\'m {0}'.format('hjw'))
-s='马哥教育'
+s='万留科技字符串格式化'
 print(type(s))
 print(s)
 b=s.encode()
