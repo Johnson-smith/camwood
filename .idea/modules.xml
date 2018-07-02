@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/camwood.iml" filepath="$PROJECT_DIR$/.idea/camwood.iml" />
+      <module fileurl="file://D:/Python/ifpay_devops/.idea/ifpay_devops.iml" filepath="D:/Python/ifpay_devops/.idea/ifpay_devops.iml" />
     </modules>
   </component>
 </project>

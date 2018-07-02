@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+#coding=utf-8
+
 #定义函数
 def name(params):
     pass
@@ -43,3 +46,6 @@ fn()
 def add(x, y):
     return x+y
 print(add(1, 2))
+print(a)
+a = fn()
+print(a)

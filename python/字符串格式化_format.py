@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+#coding=utf-8
+
 print('i am {},my age is {}'.format('comyn', 18))
 print('i am {1},my age is {0}'.format('comyn', 18))
 print('i am {name},my age is {age}'.format(name='comyn', age=18))
