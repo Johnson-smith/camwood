@@ -6,6 +6,7 @@ app = Flask(__name__)  # type: Flask
 @app.route("/test")
 def index():
     ip=request.headers['X-Real-IP']
+	#return 'test'
     return ip
 
 
