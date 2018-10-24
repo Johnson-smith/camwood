@@ -1,0 +1,9 @@
+- name: echopong
+  hosts: wanliu-es-79
+  tasks:
+      - name: echo pongpong
+        echopong: args='pongpong'
+        register: res
+      - name: check_code
+        debug: var=res
+        when: res.pass_code == 0

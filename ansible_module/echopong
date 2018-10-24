@@ -1,0 +1,12 @@
+#!/home/wuser/.pyargs/versions/2.7.8/bin/python
+from ansible.module_utils.basic import *
+import os
+module = AnsibleModule(
+        argument_spec = dict(
+            args=dict(required=True)),
+			supports_check_mode=True
+        )
+args = module.params['args']
+os.system('echo {0}'.format(args, ))
+result = dict(echo=args, changed=True, pass_code=0)
+module.exit_json(**result)
