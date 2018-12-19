@@ -3,11 +3,9 @@ from flask import request
 
 app = Flask(__name__)  # type: Flask
 
-@app.route("/test")
+@app.route("/")
 def index():
-    ip=request.headers['X-Real-IP']
-	#return 'test'
-    return ip
+    return '路由到客户机228'
 
 
 
