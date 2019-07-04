@@ -3,7 +3,7 @@ import requests
 #import urllib
 #import urllib
 
-KEY = '45e71746ab2a46469da4ed6bc20dfe3b'
+KEY = 'apikey'
 url = 'http://www.tuling123.com/openapi/api'
 
 
